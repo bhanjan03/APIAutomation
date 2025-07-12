@@ -115,8 +115,6 @@ public class AdminTest {
 		
 		System.out.println("Response Status Code: " + response.getStatusCode());
         System.out.println("Response Body: " + response.prettyPrint());
-        
-        
         logResponseInReport("API RESPONSE HEADERS", response.getHeaders().toString());
         logResponseInReport("API RESPONSE BODY", response.prettyPrint());
         logResponseInReport("API RESPONSE STATUS CODE", String.valueOf(response.getStatusCode()));
